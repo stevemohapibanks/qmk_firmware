@@ -51,9 +51,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_COLEMAK] = LAYOUT_preonic_grid(
   KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_DEL,
   KC_TAB,  KC_Q,    KC_W,    KC_F,    KC_P,    KC_B,    KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_BSPC,
-  KC_ESC,  LSFT_T(KC_A),    LALT_T(KC_R),    LGUI_T(KC_S),    KC_T,    KC_G,    KC_M,    KC_N,    LGUI_T(KC_E),    LALT_T(KC_I),    LSFT_T(KC_O),    KC_ENT,
+  LCTL_T(KC_ESC),  LSFT_T(KC_A),    LALT_T(KC_R),    LGUI_T(KC_S),    KC_T,    KC_G,    KC_M,    KC_N,    LGUI_T(KC_E),    LALT_T(KC_I),    LSFT_T(KC_O),    KC_ENT,
   KC_TILD, KC_Z,    KC_X,    KC_C,    KC_D,    KC_V,    KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_QUOT, KC_SLSH,
-  BACKLIT, KC_LCTL, KC_LALT, KC_LGUI, LT(_LOWER, KC_SPC),   CAPS_WORD,  CAPS_WORD,  LT(_RAISE, KC_ENT),   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+  BACKLIT, KC_LCTL, KC_LALT, KC_LGUI, LT(_LOWER, KC_SPC), QK_CAPS_WORD_TOGGLE, QK_CAPS_WORD_TOGGLE, LT(_RAISE, KC_ENT),   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
 
 /* Lower
